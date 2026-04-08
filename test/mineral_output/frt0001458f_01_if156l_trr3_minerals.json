@@ -1,0 +1,42 @@
+{
+  "cluster_1": {
+    "type": "FEATURELESS",
+    "minerals": [
+      "Featureless / dark basalt"
+    ],
+    "fractions": [],
+    "n_pixels": 412
+  },
+  "cluster_2": {
+    "type": "FEATURELESS",
+    "minerals": [
+      "Featureless / dark basalt"
+    ],
+    "fractions": [],
+    "n_pixels": 122
+  },
+  "cluster_3": {
+    "type": "FEATURELESS",
+    "minerals": [
+      "Featureless / dark basalt"
+    ],
+    "fractions": [],
+    "n_pixels": 72
+  },
+  "cluster_4": {
+    "type": "FEATURELESS",
+    "minerals": [
+      "Featureless / dark basalt"
+    ],
+    "fractions": [],
+    "n_pixels": 219
+  },
+  "cluster_5": {
+    "type": "FEATURELESS",
+    "minerals": [
+      "Featureless / dark basalt"
+    ],
+    "fractions": [],
+    "n_pixels": 75
+  }
+}

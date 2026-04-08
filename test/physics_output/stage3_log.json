@@ -1,0 +1,52 @@
+{
+  "frt0001458f_01_if156l_trr3": {
+    "snr_before": 21.0348,
+    "snr_after": 22.7097,
+    "snr_delta_pct": 7.96,
+    "atm_method": "multiplicative_anchor",
+    "thermal_corrected": false,
+    "spikes_corrected": true,
+    "sat_corrected": false,
+    "output_path": "./test/physics_output/./frt0001458f_01_if156l_trr3_S3.npy"
+  },
+  "frt0001458f_01_if156s_trr3": {
+    "snr_before": 40.9691,
+    "snr_after": 52.3522,
+    "snr_delta_pct": 27.78,
+    "atm_method": "multiplicative_anchor",
+    "thermal_corrected": false,
+    "spikes_corrected": true,
+    "sat_corrected": false,
+    "output_path": "./test/physics_output/./frt0001458f_01_if156s_trr3_S3.npy"
+  },
+  "frt00014679_01_if156s_trr3": {
+    "snr_before": 74.2077,
+    "snr_after": 96.8704,
+    "snr_delta_pct": 30.54,
+    "atm_method": "multiplicative_anchor",
+    "thermal_corrected": false,
+    "spikes_corrected": true,
+    "sat_corrected": false,
+    "output_path": "./test/physics_output/./frt00014679_01_if156s_trr3_S3.npy"
+  },
+  "frt00014679_02_if155l_trr3": {
+    "snr_before": 36.3116,
+    "snr_after": 37.4416,
+    "snr_delta_pct": 3.11,
+    "atm_method": "multiplicative_anchor",
+    "thermal_corrected": false,
+    "spikes_corrected": true,
+    "sat_corrected": false,
+    "output_path": "./test/physics_output/./frt00014679_02_if155l_trr3_S3.npy"
+  },
+  "frt00014954_02_if155s_trr3": {
+    "snr_before": 56.1085,
+    "snr_after": 61.5246,
+    "snr_delta_pct": 9.65,
+    "atm_method": "multiplicative_anchor",
+    "thermal_corrected": false,
+    "spikes_corrected": true,
+    "sat_corrected": false,
+    "output_path": "./test/physics_output/./frt00014954_02_if155s_trr3_S3.npy"
+  }
+}

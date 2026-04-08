@@ -823,9 +823,18 @@ def run_ml_denoising(data_dir=DATA_DIR,
         # Final clip to physical bounds
         cube_work = np.clip(cube_work, IF_MIN, IF_MAX)
 
-        # ── Validation ─────────────────────────────────────────
+        # ── Validation & Adaptive Blending ────────────────────
         status, metrics = validate_denoising(
             cube_s3, cube_work, waves, good_mask, sname)
+
+        if status == 'REVIEW':
+            print(f"  [ADAPTIVE] Status is REVIEW (SAM={metrics['sam_rad']:.4f}). "
+                  f"Applying safe-blending (70% ML, 30% Physics)...")
+            cube_work = 0.7 * cube_work + 0.3 * cube_s3
+            # Re-validate
+            status, metrics = validate_denoising(
+                cube_s3, cube_work, waves, good_mask, sname)
+            metrics['adaptive_blend_applied'] = True
 
         if status == 'FAIL':
             print("  ⚠️  Validation FAILED — reverting to physics output")
